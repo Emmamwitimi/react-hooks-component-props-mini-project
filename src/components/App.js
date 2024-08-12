@@ -5,7 +5,8 @@ import Article from "./Article";
 import ArticleList from "./ArticleList";
 import Header from "./Header";
 
-console.log(blogData);
+const { name, image, about, posts } = blogData;
+
 
 function App() {
   return (
